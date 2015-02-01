@@ -1,0 +1,17 @@
+{
+  "name": "beercolor",
+  "version": "0.0.1",
+  "dependencies": {
+    "consolelog": "~2.0.1",
+    "html5shiv": "~3.7.2",
+    "modernizr": "~2.8.1",
+    "normalize.css": "~3.0.1",
+    "jquery": "~1.11.1",
+    "backbone": "~1.1.2",
+    "handlebars": "~2.0.0",
+    "normalize-scss": "~3.0.2",
+    "bootstrap-sass-official": "~3.3.3",
+    "flexboxgrid": "~6.1.1"
+  },
+  "devDependencies": {}
+}

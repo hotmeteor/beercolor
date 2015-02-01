@@ -1,0 +1,45 @@
+// Colors
+$light-red: #FBE3E4;
+$red: darken($light-red, 50);
+
+$blue: darken(#4088b6, 5);
+$dark-blue: #0B3D63;
+$bright-blue: saturate($blue, 50);
+
+$aqua: #00a983;
+$green: mix(darken(#e6efc2, 30), $aqua, 30);
+$light-green: lighten($green, 45);
+$bright-green: lighten(saturate($green, 20), 4);
+
+$light-yellow: #FFF6BF;
+$yellow: darken($light-yellow, 50);
+
+$orange: #FF8000;
+$purple: #544E66;
+
+// Greys
+$grey: #777;
+
+$grey-subtle: lighten($grey, 57);
+$grey-tint: darken($grey-subtle, 3);
+$grey-lightest: darken($grey-tint, 3);
+$grey-lighter: lighten($grey, 47);
+$grey-light: lighten($grey, 35);
+$grey-mid: lighten($grey, 15);
+$grey: $grey;
+$grey-dark: darken($grey, 15);
+
+// Brand colors.
+$beer: #F79400;
+$wine: #852F38;
+$dark: #231F20;
+
+$brand-primary: $beer;
+$brand-primary-mid: darken($brand-primary, 10);
+$brand-primary-dark: darken($brand-primary, 25);
+
+$brand-alt: $wine;
+$brand-alt-mid: darken($brand-alt, 10);
+$brand-alt-dark: darken($brand-alt, 25);
+
+$brand-black: $dark;
